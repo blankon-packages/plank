@@ -1,2 +1,2 @@
 version=3
-https://launchpad.net/plank/+download http://launchpad.net/plank/.*/plank-(.+)\.tar.xz
+https://launchpad.net/plank/+download https://launchpad.net/plank/.*/.*/plank-(.+)\.tar.xz

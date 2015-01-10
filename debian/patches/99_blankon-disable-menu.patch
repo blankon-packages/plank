@@ -1,9 +1,0 @@
-diff -Naur plank-0.6.0.1023.orig/data/plank.desktop.in plank-0.6.0.1023/data/plank.desktop.in
---- plank-0.6.0.1023.orig/data/plank.desktop.in	2014-05-04 22:53:34.000000000 +0700
-+++ plank-0.6.0.1023/data/plank.desktop.in	2014-06-17 20:43:56.645186639 +0700
-@@ -7,4 +7,4 @@
- Exec=plank
- Icon=plank
- Terminal=false
--NoDisplay=false
-+NoDisplay=true

@@ -34,11 +34,27 @@ dockpreferences: update internal defaults for "Pantheon"
  			UnhideDelay = 0;
  			Monitor = -1;
  			DockItems = "";
- 			Position = PositionType.BOTTOM;
+ 			Position = Gtk.PositionType.BOTTOM;
  			Offset = 0;
 -			Theme = Plank.Drawing.Theme.DEFAULT_NAME;
-+			Theme = "Pantheon";
++			Theme = Plank.Drawing.Theme.GTK_THEME_NAME;
  			Alignment = Gtk.Align.CENTER;
  			ItemsAlignment = Gtk.Align.CENTER;
  			LockItems = false;
+
+=== modified file 'lib/Drawing/Theme.vala'
+--- old/lib/Drawing/Theme.vala	2014-12-16 09:11:36 +0000
++++ new/lib/Drawing/Theme.vala	2014-12-24 08:53:52 +0000
+@@ -387,9 +387,9 @@
+ 				&& folder.query_file_type (FileQueryInfoFlags.NONE, null) == FileType.DIRECTORY)
+ 				return folder;
+ 			
+-			warning ("%s not found, falling back to %s.", name, DEFAULT_NAME);
++			warning ("%s not found, falling back to %s or %s.", name, GTK_THEME_NAME, DEFAULT_NAME);
+ 			
+-			return get_default_theme_folder ();
++			return get_gtk_theme_folder () ?? get_default_theme_folder ();
+ 		}
+ 		
+ 		static File? get_default_theme_folder ()
 

@@ -3,9 +3,9 @@ Upstream-Contact: Robert Dyer <psybers@gmail.com>
 Source: https://code.launchpad.net/plank
 
 Files: *
-Copyright: 2011-2012, Robert Dyer <psybers@gmail.com>
-           2011-2013, Rico Tzschichholz <ricotz@ubuntu.com>
-           2011, Daniel Foré <bunny@go-docky.com>
+Copyright: 2011-2013, Robert Dyer <psybers@gmail.com>
+           2011-2014, Rico Tzschichholz <ricotz@ubuntu.com>
+           2011, Daniel Foré <daniel@elementaryos.org>
            2011, Michal Hruby <michal.mhr@gmail.com>
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
@@ -27,6 +27,8 @@ License: GPL-3+
 
 Files: lib/Widgets/TitledSeparatorMenuItem.vala
 Copyright: 2010, Michal Hruby <michal.mhr@gmail.com>
+           2011-2012, Robert Dyer <psybers@gmail.com>
+           2013, Rico Tzschichholz <ricotz@ubuntu.com>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -46,7 +48,8 @@ License: LGPL-2
  '/usr/share/common-licenses/LGPL-2'.
 
 Files: debian/*
-Copyright: 2011-2013, Rico Tzschichholz <ricotz@ubuntu.com>
+Copyright: 2011-2014, Rico Tzschichholz <ricotz@ubuntu.com>
+           2014, Sergey "Shnatsel" Davidoff <sergey@elementaryos.org>
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -62,5 +65,5 @@ License: GPL-3+
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
+ License version 3 can be found in the file
  '/usr/share/common-licenses/GPL-3'.
