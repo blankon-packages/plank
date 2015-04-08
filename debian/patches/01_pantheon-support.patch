@@ -25,14 +25,15 @@ dockpreferences: update internal defaults for "Pantheon"
 === modified file 'lib/DockPreferences.vala'
 --- old/lib/DockPreferences.vala	2013-10-07 15:36:50 +0000
 +++ new/lib/DockPreferences.vala	2013-10-13 19:30:02 +0000
-@@ -108,13 +108,13 @@
+@@ -108,14 +108,14 @@
  			
  			CurrentWorkspaceOnly = false;
  			IconSize = 48;
 -			HideMode = HideType.INTELLIGENT;
 +			HideMode = HideType.DODGE_MAXIMIZED;
  			UnhideDelay = 0;
- 			Monitor = -1;
+ 			HideDelay = 0;
+ 			Monitor = "";
  			DockItems = "";
  			Position = Gtk.PositionType.BOTTOM;
  			Offset = 0;

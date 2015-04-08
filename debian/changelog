@@ -1,5 +1,17 @@
-plank (0.8.0-0blankon1) tambora; urgency=low
+plank (0.8.1+bzr1226-blankon1) tambora; urgency=medium
 
   * New upstream release
 
- -- Mahyuddin <yudi.al@gmail.com>  Sat, 10 Jan 2015 22:29:03 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 08 Apr 2015 11:04:15 +0700
+
+plank (0.8.1+bzr1226-0elementary1~ubuntu15.04.1) vivid; urgency=high
+
+  * New development release of lp:pantheon-dock bzr1226
+
+ -- Rico Tzschichholz <ricotz@ubuntu.com>  Mon, 06 Apr 2015 23:44:45 +0200
+
+plank (0.6.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Rico Tzschichholz <ricotz@ubuntu.com>  Thu, 05 Jun 2014 21:09:22 +0200
