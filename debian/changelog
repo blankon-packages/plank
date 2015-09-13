@@ -1,8 +1,22 @@
-plank (0.9.1-1blankon1) tambora; urgency=medium
+plank (0.10.0-1blankon1) tambora; urgency=medium
 
-  * Rebuild 
+  * New upstream release 
 
- -- Mahyuddin <yudi.al@gmail.com>  Wed, 13 May 2015 17:35:26 +0700
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 13 Sep 2015 19:34:29 +0700
+
+plank (0.10.0-1) unstable; urgency=medium
+
+  [ Rico Tzschichholz ]
+  * New upstream release.
+  * debian/control:
+    - Bump build-dep on libcairo-dev (>= 1.10.0)
+
+  [ Mike Gabriel ]
+  * debian/patches:
+    + 1001_typo-in-AnimateRenderer-error-msg.patch. Fix spelling typo in error
+      message.
+
+ -- Rico Tzschichholz <ricotz@ubuntu.com>  Mon, 07 Sep 2015 09:04:31 +0200
 
 plank (0.9.1-1) unstable; urgency=medium
 
