@@ -1,3 +1,9 @@
+plank (0.10.0-1blankon2) tambora; urgency=medium
+
+  * Build-Depends: Bump version libbamf3-dev 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 13 Sep 2015 21:36:45 +0700
+
 plank (0.10.0-1blankon1) tambora; urgency=medium
 
   * New upstream release 
